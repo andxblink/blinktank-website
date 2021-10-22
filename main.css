@@ -11,7 +11,7 @@ body {
     color: #212121;
 	font-weight: 300;
     text-align: left;
-    background: #fff;
+    background: hsl(0, 0%, 95%);
 	margin: 0;
 }
 
@@ -34,16 +34,16 @@ h2 {
 }
 
 #daten {
-    color: #212121;
+    color: hsl(0, 0%, 13%);
 }
 
 #privacy {
-    color: #ededed;
+    color: hsl(0, 0%, 75%);
 }
 
 #hell,
 #hell a {
-    color: #fff;
+    color: hsl(0, 0%, 95%);
 	cursor: default;
 }
 
@@ -63,12 +63,12 @@ a:active,
 a:focus,
 a:link,
 a:visited {
-    color: #212121;
+    color: hsl(0, 0%, 13%);
     text-decoration: none;
 }
 
 a:hover,
 a:visited:hover {
-    color: #FAD837;
+    color: hsl(50, 95%, 60%);
 }
 
