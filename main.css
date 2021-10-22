@@ -57,6 +57,7 @@ h2 {
 #hell a:visited {
 	text-decoration: none;
 	cursor: default;
+    background-color:hsl(0, 0%, 95%);
 }
 
 a {
