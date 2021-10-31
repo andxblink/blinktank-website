@@ -2,35 +2,44 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 body {
-    font: 18px/28px din-2014, Sans-Serif, sans-serif;
-    color: hsl(0, 0%, 13%);
+  font: 18px/28px din-2014, Sans-Serif, sans-serif;
+  color: hsl(0, 0%, 13%);
 	font-weight: 300;
-    text-align: left;
-    background: hsl(0, 0%, 95%);
+  text-align: left;
+  background: hsl(0, 0%, 95%);
 	margin: 0;
 }
 
-#logo img { 
+a {
+  padding: 2px 8px;
+  margin-left: -8px;
+}
+
+a:active,
+a:focus,
+a:link,
+a:visited {
+  color: hsl(0, 0%, 13%);
+  text-decoration: none;
+}
+
+a:hover,
+a:visited:hover {
+  color: hsl(50, 95%, 60%);
+  background-color:hsl(0, 0%, 13%);
+  transition: .7s;
+}
+
+#logo img {
 	max-width: 200px;
 	max-height: auto;
 	min-width: 160px;
 	min-height: auto;
-}
-
-h1 {
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-weight: 400;
-    line-height: 1em;
-	font-size: 1.2em;
 }
 
 #daten {
@@ -43,7 +52,7 @@ h2 {
 
 #hell,
 #hell a {
-    color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 	cursor: default;
 }
 
@@ -55,28 +64,7 @@ h2 {
 #hell a:focus,
 #hell a:link,
 #hell a:visited {
-	text-decoration: none;
+  text-decoration: none;
 	cursor: default;
-    background-color:hsl(0, 0%, 95%);
+  background-color:hsl(0, 0%, 95%);
 }
-
-a {
-    padding: 2px 8px;
-    margin-left: -8px;
-}
-
-a:active,
-a:focus,
-a:link,
-a:visited {
-    color: hsl(0, 0%, 13%);
-    text-decoration: none;
-}
-
-a:hover,
-a:visited:hover {
-    color: hsl(50, 95%, 60%);
-    background-color:hsl(0, 0%, 13%);
-    transition: .7s;
-}
-
