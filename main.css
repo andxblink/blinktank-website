@@ -20,6 +20,13 @@ a {
   margin-left: -8px;
 }
 
+a:hover,
+a:visited:hover {
+  color: hsl(50, 95%, 60%);
+  background-color:hsl(0, 0%, 13%);
+  transition: .7s;
+}
+
 a:active,
 a:focus,
 a:link,
@@ -28,12 +35,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover,
-a:visited:hover {
-  color: hsl(50, 95%, 60%);
-  background-color:hsl(0, 0%, 13%);
-  transition: .7s;
-}
 
 #logo img {
 	max-width: 200px;
